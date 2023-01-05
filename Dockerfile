@@ -2,6 +2,8 @@ FROM ubuntu:latest
 
 RUN apt-get update
 
+RUN apt install git -y
+
 RUN git clone https://github.com/HarishArchimedis/jenkinsjfrog.git
 
 RUN cd jenkinsjfrog
