@@ -2,9 +2,9 @@ FROM ubuntu:latest
 
 RUN apt-get update
 
-RUN git clone https://github.com/HarishArchimedis/jen_jfrog.git
+RUN git clone https://github.com/HarishArchimedis/jenkinsjfrog.git
 
-RUN cd java-ci-master
+RUN cd jenkinsjfrog
 
 RUN mvn spring-boot:run 
 
