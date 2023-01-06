@@ -6,8 +6,7 @@ RUN apt install git -y
 RUN apt install maven -y
 RUN git clone https://github.com/HarishArchimedis/jenkinsjfrog.git
 
-RUN cd jenkinsjfrog
-
-RUN mvn spring-boot:run 
+RUN cd jenkinsjfrog 
+RUN mvn clean 
 
 EXPOSE 8080
