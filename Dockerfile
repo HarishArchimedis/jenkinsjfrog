@@ -8,6 +8,7 @@ RUN git clone https://github.com/HarishArchimedis/jenkinsjfrog.git
 
 RUN cd jenkinsjfrog
 
-RUN mvn spring-boot:run 
+RUN mvn clean package
+CMD mvn spring-boot:run 
 
 EXPOSE 8080
