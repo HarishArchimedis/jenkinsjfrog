@@ -10,4 +10,4 @@ RUN cd jenkinsjfrog
 
 CMD mvn spring-boot:run 
 
-EXPOSE 83
+EXPOSE 8080
